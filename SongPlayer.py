@@ -13,6 +13,7 @@ class SongPlayer:
 
     # Create song info
     def createSongInfo(self, fileName: str, **options) -> dict:
+        """Method that creates song details."""
         for key, value in options:
             if key is "songTitle":
                 songTitle = value
